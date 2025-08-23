@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f37c349c-f6fa-4165-915d-b34f3469947c" name="Changes" comment="" />
+    <list default="true" id="f37c349c-f6fa-4165-915d-b34f3469947c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultaPedidos.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GerenciamentoItens.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestaoPedidos.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuPrincipal.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "gestao__pedido",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/vscf1/OneDrive/Documentos/GitHub/tia-lu-dev-mobile-lisboa"
   }
