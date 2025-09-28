@@ -1,7 +1,5 @@
-// =============================
-// Model.kt
+
 // Lógica de negócio e estrutura de dados
-// =============================
 
 data class Item(
     val codigo: Int,
@@ -31,9 +29,8 @@ val pedidos = mutableListOf<Pedido>()
 var codigoAtualItem = 1
 var codigoAtualPedido = 1
 
-// =============================
+
 // Funções de gerenciamento de itens
-// =============================
 
 fun cadastrarItem(nome: String, descricao: String, preco: Double, quantidade: Int): Item {
     val item = Item(codigoAtualItem++, nome, descricao, preco, quantidade)
@@ -63,9 +60,9 @@ fun listarItens(): String {
     }
 }
 
-// =============================
+
 // Funções de gerenciamento de pedidos
-// =============================
+
 
 fun criarPedido(codItem: Int, qtd: Int, cupom: Boolean = false): String {
     val item = itens.find { it.codigo == codItem } ?: return "Erro: item não encontrado."
